@@ -5,6 +5,6 @@
 ## 2 Dice :
 ##### 
   ![GitHub Logo](/dice/image.gif) 
-## 2 Magic Ball 8 :
+## 3 Magic Ball 8 :
 ##### 
   ![GitHub Logo](/magic8/image.gif.gif) 
