@@ -17,3 +17,9 @@
 ## 6 Destini:
 ##### 
   ![GitHub Logo](/Destini/image.gif) 
+## 7 BMI Calculator:
+##### 
+![GitHub Logo](/bmi_calculator/image.gif) 
+## 8 Climate:
+##### 
+  ![GitHub Logo](/Climate/image.gif) 

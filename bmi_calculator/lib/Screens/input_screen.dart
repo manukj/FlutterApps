@@ -44,7 +44,7 @@ class _InputPageState extends State<BMICalculator> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                    onPressed: () {
+                    onPress: () {
                       setState(() {
                         selectedGender = Gender.Male;
                       });
@@ -60,7 +60,7 @@ class _InputPageState extends State<BMICalculator> {
                 ),
                 Expanded(
                   child: ReusableCard(
-                    onPressed: () {
+                    onPress: () {
                       setState(() {
                         selectedGender = Gender.Female;
                       });
