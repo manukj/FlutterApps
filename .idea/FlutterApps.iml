@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Climate/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/geolocator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/geolocator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/geolocator/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/geolocator/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/google_api_availability/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/google_api_availability/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/google_api_availability/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/google_api_availability/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/location_permissions/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/location_permissions/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/location_permissions/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Climate/ios/.symlinks/plugins/location_permissions/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Destini/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Destini/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Quizzer/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Quizzer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_calculator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_calculator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/dice/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/dice/build" />
+      <excludeFolder url="file://$MODULE_DIR$/keyboard/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/keyboard/build" />
+      <excludeFolder url="file://$MODULE_DIR$/magic8/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/magic8/build" />
+      <excludeFolder url="file://$MODULE_DIR$/personal_card/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/personal_card/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
