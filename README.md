@@ -23,3 +23,6 @@
 ## 8 Climate:
 ##### 
   ![GitHub Logo](/Climate/image.gif) 
+## 8 BitCoin:
+##### 
+  ![GitHub Logo](/bitcoin-ticker/image.gif) 
