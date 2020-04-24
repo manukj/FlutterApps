@@ -27,7 +27,7 @@ class TaskTop extends StatelessWidget {
                 color: Colors.white, fontWeight: FontWeight.w700, fontSize: 50),
           ),
           Text(
-            '${Provider.of<TaskData>(context).listOfTask.length} Tasks',
+            "${Provider.of<TaskData>(context).lengthOfTask} task",
             style: TextStyle(
                 color: Colors.white, fontWeight: FontWeight.w500, fontSize: 15),
           )

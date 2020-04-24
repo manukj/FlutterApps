@@ -1,19 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo/model/Task.dart';
+import 'package:todo/model/task.dart';
 import 'package:todo/model/tasks_data.dart';
 
-class AddNewTask extends StatefulWidget {
-  @override
-  _AddNewTaskState createState() => _AddNewTaskState();
-}
-
-class _AddNewTaskState extends State<AddNewTask> {
-  String toDoString;
+class AddNewTask extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
-    print("in build");
+    String toDoString;
     return Container(
       color: Color(0xff757575),
       child: Container(
@@ -35,18 +28,15 @@ class _AddNewTaskState extends State<AddNewTask> {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20),
               onChanged: (newText) {
-                print(toDoString);
-                print(this.hashCode);
                 toDoString = newText;
-                print(toDoString);
               },
             ),
             FlatButton(
               child: Text("Add"),
               color: Colors.lightBlue,
               onPressed: () {
-                print(this.hashCode);
-                print("task $toDoString");
+                Provider.of<TaskData>(context,listen: false).addTask(Task(toDoString));
+                Navigator.pop(context);
               },
             )
           ],

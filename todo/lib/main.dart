@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:todo/model/tasks_data.dart';
 import 'package:todo/screens/landing_screen.dart';
 
 void main() => runApp(MyApp());
@@ -7,8 +9,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: LandingPage(),
+    return ChangeNotifierProvider(
+      create: (context) => TaskData(),
+      child: MaterialApp(
+        home: LandingPage(),
+      ),
     );
   }
 }
